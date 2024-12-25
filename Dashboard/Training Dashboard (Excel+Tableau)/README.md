@@ -107,7 +107,7 @@ This project demonstrates the process of cleaning and preparing data using Excel
   - **ListofLearner**: Contains demographic and employment details of each trainee.
     - Key columns:
       - `Employee ID`: Unique identifier for each employee.
-      - `Employee Type`: Type of employee (e.g., full-time, part-time).
+      - `Employee Type`: Type of employee (existing, new).
       - `DOB`: Date of birth of the employee.
       - `Gender`: Gender of the employee.
       - `Education`: Highest level of education completed by the employee.

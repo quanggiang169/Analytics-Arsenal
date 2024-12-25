@@ -74,18 +74,18 @@ This project demonstrates the process of cleaning and preparing data using Excel
 
 
 ## How to View the Dashboard
-1. Visit the [Tableau Public link](#) to access the dashboard.
+1. Visit the [Tableau Public](https://github.com/quanggiang169/Analytics-Arsenal/blob/main/Dashboard/Training%20Dashboard%20(Excel%2BTableau)/Training_dashboard_v2.twbx) to access the dashboard.
 2. Use filters to explore specific training metrics by department, training type, or date range.
 
 ## Files Included
-- `raw_training_data.xlsx`: Original raw dataset.
-- `cleaned_training_data.xlsx`: Dataset after cleaning and preprocessing.
-- `training_dashboard.twbx`: Tableau dashboard file.
-- `training_dashboard_screenshots/`: Screenshots of the final dashboard.
+- `Training original data.xlsx`: Original raw dataset.
+- `Training cleanned data.xlsx`: Dataset after cleaning and preprocessing.
+- `Training_dashboard_v2.twbx`: Tableau dashboard file.
+- `Dashboard Requirements Document.pdf`: Document outlining the requirements for the dashboard.
 - `README.md`: This documentation file.
 
 ## Contact
 For any questions or feedback, feel free to reach out to:
 - **Name**: Quang Giang
 - **Email**: lequanggiang.hrm@gmail.com
-- **LinkedIn**: [Lê Quang Giảng]([#](https://www.linkedin.com/in/quang-giang/))
+- **LinkedIn**: [Lê Quang Giảng](https://www.linkedin.com/in/quang-giang/)

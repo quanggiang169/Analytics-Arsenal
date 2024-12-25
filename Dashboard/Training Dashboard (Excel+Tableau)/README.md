@@ -60,7 +60,7 @@ This project demonstrates the process of cleaning and preparing data using Excel
    - Calculate key metrics such as total hours, completion rates, and averages.
 5. **Dashboard Creation (Tableau)**:
    - Import cleaned data into Tableau.
-   - Create visualizations like bar charts, line charts, and heatmaps.
+   - Create visualizations like bar charts, line charts, and scatter plot.
    - Design an interactive and user-friendly dashboard layout.
 6. **Publishing**:
    - Publish the dashboard to Tableau Public for sharing and review.

@@ -9,6 +9,7 @@ This project demonstrates the process of cleaning and preparing data using Excel
 - **Evaluate cost allocation** by assessing how the training budget is distributed across various programs and comparing it against key metrics to determine whether the investment aligns with training outcomes and organizational goals.
 - **Address inefficiencies in resource allocation** by providing insights into where resources (both time and budget) are being underutilized or overinvested, helping improve future training strategies and cost-effectiveness.
 
+## Features
 - ### Data Cleaning
 - **Handling Missing Data**: Fill in or remove missing values to ensure data consistency.
 - **Removing Duplicates**: Identify and eliminate duplicate records to maintain clean and accurate data.

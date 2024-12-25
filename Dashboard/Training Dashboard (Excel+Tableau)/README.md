@@ -71,7 +71,18 @@ This project demonstrates the process of cleaning and preparing data using Excel
   - **Training Progress**: Tracks training activities.
  
 ## Key Insights
+- **Training Progress Dashboard**: 
+  - A significant number of courses were delivered later than planned, with a completion rate of 77%. However, 100% of mandatory courses have been successfully completed.
+  
+- **Learner Dashboard**: 
+  - Employees in the Operations department show the highest training participation.
+  - The majority of trainees are male, with most having a high school education and an age range of 28 to 41.
+  - Training participation is higher among employees with a high school education, but they spend less time in training compared to employees with a Master's degree, who participate less frequently but dedicate more hours to their training.
 
+- **Cost Dashboard**: 
+  - The training costs have exceeded the budget by 367%, with a cost per learner of 629k VND.
+  - The Learning Engagement Efficiency is quite low at 0.2%, indicating that the cost per learner is high relative to the engagement and outcomes achieved. This is an area that needs improvement, as it suggests inefficient allocation of resources.
+  - The Training Duration Efficiency shows that most of the budget is allocated to mandatory safety courses (e.g., Occupational Health and Safety, First Aid, Emergency Response), which could be a strategic decision but needs further analysis to ensure it aligns with the overall training objectives.
 
 ## How to View the Dashboard
 1. Visit the [Tableau Public](https://github.com/quanggiang169/Analytics-Arsenal/blob/main/Dashboard/Training%20Dashboard%20(Excel%2BTableau)/Training_dashboard_v2.twbx) to access the dashboard.

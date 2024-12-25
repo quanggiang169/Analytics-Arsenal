@@ -139,6 +139,7 @@ This project demonstrates the process of cleaning and preparing data using Excel
 - `Training cleanned data.xlsx`: Dataset after cleaning and preprocessing.
 - `Training_dashboard_v2.twbx`: Tableau dashboard file.
 - `Dashboard Requirements Document.pdf`: Document outlining the requirements for the dashboard.
+- `Training_Dashboard_-_Insights_and_Analysis.pdf`: Screenshots and insights of the dashboards.
 - `README.md`: This documentation file.
 
 ## Contact

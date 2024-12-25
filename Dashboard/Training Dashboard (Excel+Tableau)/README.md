@@ -67,9 +67,54 @@ This project demonstrates the process of cleaning and preparing data using Excel
   
 ## Dataset Description
 - **Source**: Simulated training dataset with fictional employee training data, provided in an Excel file containing three sheets:
-  - **List of Courses**: Contains details about each training course.
-  - **List of Learners**: Includes information about trainees, such as employee ID, department, and demographic details.
-  - **Training Progress**: Tracks training activities.
+  
+  - **ListofCourses**: Contains details about each training course, including the course name, trainee status, training mode, budgeted costs, and other related information.
+    - Key columns:
+      - `Course Name`: Name of the training course.
+      - `Current Trainees`: Number of current trainees in the course.
+      - `New Trainees`: Number of new trainees in the course.
+      - `Training Mode`: The method of delivering the training (e.g., external, internal).
+      - `Training Time`: Duration of the training.
+      - `Budgeted Training Costs per Participant`: The planned cost per participant for the training.
+      - `Budgeted Training Costs`: Total planned cost for the course.
+      - `Course Code`: Unique identifier for each course.
+      - `Status`: The current status of the course (e.g., done, learning).
+      - `Required Status`: Whether the course is mandatory or non-mandatory.
+      - `Training Type`: Type of training (e.g., plan, out of plan).
+
+  - **TrainingProgress**: Tracks the progress of each training course, detailing the training content, status, actual costs, duration, and other metrics for each employee.
+    - Key columns:
+      - `Course Code`: Identifier linking the training progress to a specific course.
+      - `Employee ID`: Unique identifier for the employee.
+      - `Training Content`: The content covered in the training.
+      - `Status`: The current status of the employee's training (e.g., done, learning).
+      - `Start Date`: Date when the training started.
+      - `End Date`: Date when the training ended.
+      - `Vendor`: The external training provider (if applicable).
+      - `Training Location`: Location where the training was held.
+      - `Country`: Country where the training took place.
+      - `Training Mode`: Method used to deliver the training (e.g., online, face-to-face).
+      - `Training Time Frame`: Duration or period for completing the training.
+      - `Actual Training Costs`: The actual cost incurred for the training.
+      - `Budgeted Training Costs`: The planned or budgeted cost for the training.
+      - `Start Time`: Time when the training session started.
+      - `End Time`: Time when the training session ended.
+      - `Duration (Hours/Days)`: Duration of the training session in hours or days.
+      - `Number of Days`: Total number of days the training took.
+      - `Total Duration`: Overall training duration.
+      - `Delivery Method`: The method used to deliver the training (e.g., online, offline).
+
+  - **ListofLearner**: Contains demographic and employment details of each trainee.
+    - Key columns:
+      - `Employee ID`: Unique identifier for each employee.
+      - `Employee Type`: Type of employee (e.g., full-time, part-time).
+      - `DOB`: Date of birth of the employee.
+      - `Gender`: Gender of the employee.
+      - `Education`: Highest level of education completed by the employee.
+      - `Management Level`: The level of management the employee belongs to.
+      - `Branch`: The branch where the employee works.
+      - `Dept`: The department of the employee.
+      - `Job Title`: The job title of the employee.
  
 ## Key Insights
 - **Training Progress Dashboard**: 

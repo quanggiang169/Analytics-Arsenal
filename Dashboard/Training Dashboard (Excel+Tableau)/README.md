@@ -96,7 +96,6 @@ This project demonstrates the process of cleaning and preparing data using Excel
       - `Training Mode`: Method used to deliver the training (e.g., online, face-to-face).
       - `Training Time Frame`: Duration or period for completing the training.
       - `Actual Training Costs`: The actual cost incurred for the training.
-      - `Budgeted Training Costs`: The planned or budgeted cost for the training.
       - `Start Time`: Time when the training session started.
       - `End Time`: Time when the training session ended.
       - `Duration (Hours/Days)`: Duration of the training session in hours or days.
@@ -118,28 +117,24 @@ This project demonstrates the process of cleaning and preparing data using Excel
  
 ## Key Insights
 - **Training Progress Dashboard**: 
-  - A significant number of courses were delivered later than planned, with a completion rate of 77%. However, 100% of mandatory courses have been successfully completed.
-  
-- **Learner Dashboard**: 
-  - Employees in the Operations department show the highest training participation.
-  - The majority of trainees are male, with most having a high school education and an age range of 28 to 41.
-  - Training participation is higher among employees with a high school education, but they spend less time in training compared to employees with a Master's degree, who participate less frequently but dedicate more hours to their training.
+  - A significant delay in course completion began in late Q2 due to a sudden increase in the number of courses scheduled during this period compared to the first four months. This overload affected the overall completion rate and training effectiveness.
 
 - **Cost Dashboard**: 
-  - The training costs have exceeded the budget by 367%, with a cost per learner of 629k VND.
-  - The Learning Engagement Efficiency is quite low at 0.2%, indicating that the cost per learner is high relative to the engagement and outcomes achieved. This is an area that needs improvement, as it suggests inefficient allocation of resources.
-  - The Training Duration Efficiency shows that most of the budget is allocated to mandatory safety courses (e.g., Occupational Health and Safety, First Aid, Emergency Response), which could be a strategic decision but needs further analysis to ensure it aligns with the overall training objectives.
+  - The cost overrun rate reached 51%, with actual expenses amounting to 7,164M, exceeding the budgeted 4,742M.
+  - 29% of courses (39 courses) surpassed their budgets, with planned courses contributing 2,047M to the overrun and unplanned courses adding 356M.
+  - Unplanned courses in office areas accounted for 61% of the cost overrun within this category, highlighting the need for better budget flexibility and foresight for office-based training activities.
 
 ## How to View the Dashboard
-1. Visit the [Tableau Public](https://github.com/quanggiang169/Analytics-Arsenal/blob/main/Dashboard/Training%20Dashboard%20(Excel%2BTableau)/Training_dashboard_v2.twbx) to access the dashboard.
+1. Visit the [Tableau Public](https://github.com/quanggiang169/Analytics-Arsenal/blob/main/Dashboard/Training%20Dashboard%20(Excel%2BTableau)/Training%20Dashboard.twbx) to access the dashboard.
 2. Use filters to explore specific training metrics by department, training type, or date range.
 
 ## Files Included
 - `Training original data.xlsx`: Original raw dataset.
 - `Training cleanned data.xlsx`: Dataset after cleaning and preprocessing.
-- `Training_dashboard_v2.twbx`: Tableau dashboard file.
+- `Training Dashboard.twbx`: Tableau dashboard file.
 - `Dashboard Requirements Document.pdf`: Document outlining the requirements for the dashboard.
-- `Insights_from_Our_Dashboards.pdf`: Screenshots and insights of the dashboards.
+- `Dashboard Screenshot.pdf`: Screenshots of the dashboards.
+- `Training Report.pdf`: Insights of the dashboards
 - `README.md`: This documentation file.
 
 ## Contact
